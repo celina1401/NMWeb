@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main{
+    display: flex;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box-text {
+    width: 350px;
+    height: 500px;
+    padding: 10px;
+}
+
+

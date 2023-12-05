@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+header{
+    margin-bottom: 20px;
+}
+h2{
+    position: relative;
+    padding-bottom: 10px;
+}
+h2::after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: orange;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.info-container{
+    margin-right: 50px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+}
+.info > p{
+    margin-right: 10px;
+    margin-top: 40px;
+    color: #9d9a9a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+.input-container > h3{
+    margin-bottom: 20px;
+}
+.input-container > input{
+    margin-bottom: 10px;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid rgb(230, 225, 225);
+}
+.input-container >textarea{
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 80px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(230, 225, 225);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.input-container > button{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(43, 193, 193);
+    color: white;
+    border: none;
+    cursor: pointer;
+}

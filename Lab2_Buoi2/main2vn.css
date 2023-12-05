@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ccc;
+}
+/* main{
+    display: flex;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+} */
+
+.envelope{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.envelope > button{
+    background-color: transparent;
+    color: cadetblue;
+    border: 5px solid cadetblue;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    
+    
+}
+
+.envelope > button > i{
+    font-size: 40px;
+    padding: 20px;
+}
+
+.envelope > p {
+    margin-top: 10px;
+    color: #524848;
+}
+
+.envelope > input{
+    width: 510px;
+    height: 40px;
+    border: 0px ;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    outline: none;
+}
+
+button:active{
+    background-color: cadetblue;
+}
+
+.enter > button{
+    background-color: cadetblue;
+    border: 0px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.enter{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 150px;
+}
+
+input:focus{
+    outline: 2px solid cadetblue;
+}
